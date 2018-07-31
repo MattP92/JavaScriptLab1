@@ -2,10 +2,7 @@ const name1 = prompt("Enter a name");
 const name2 = prompt("Enter another name"); 
 const name3 = prompt("Enter a third name"); 
 
-if(name3.length == name2.length, name1.length){
-    console.log(`${name3} and ${name2} and ${name1} are the sames length`);
-    
-}else if(name3.length == name2.length){
+if(name3.length == name2.length){
     console.log(`${name3} and ${name2} are the same length`);
     
 }else if(name3.length == name1.length){
@@ -40,6 +37,9 @@ if(name3.length == name2.length, name1.length){
     
 }else if(name3.length > name2.length){
     console.log(`${name3} has a longer name`);
+
+}else if(name3.length == name2.length, name1.length){
+    console.log(`${name3} and ${name2} and ${name1} are the sames length`);
     
 }else{
     console.log('There are no other names'); 
